@@ -51,4 +51,40 @@ export const Container = styled.div`
             color: #ffffff;
         }
     }
+
+    .card {
+        margin-top: 50px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        width: 600px;
+        padding: 10px 15px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .redondinho {
+        border-radius: 50%;
+        margin: 0;
+    }
+
+    .card h3 {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Roboto;
+    }
+
+    .card .texto {
+        margin-left: 20px;
+    }
+
+    .card span {
+        font-size: 15px;
+        font-family: Roboto;
+    }
+
+    .card .seta {
+        margin-left: auto;
+    }
 `;

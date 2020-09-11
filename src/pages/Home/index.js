@@ -4,6 +4,10 @@ import { Container } from './styles';
 
 import Logo from '../../assets/Logo.svg';
 
+import redondinho from '../../assets/Redondinho.svg';
+
+import Vector from '../../assets/Vector.svg';
+
 function Home() {
     const [valorInput, setValorInput] = useState('');
 
@@ -29,6 +33,21 @@ function Home() {
                 />
                 <button type="submit">Pesquisar</button>
             </form>
+
+            <div className="card">
+                <img
+                    className="redondinho"
+                    src={redondinho}
+                    alt="foto de alguem"
+                />
+
+                <div className="texto">
+                    <h3>tiagoluchtenberg/repo</h3>
+                    <span>Descrição do repo</span>
+                </div>
+
+                <img className="seta" src={Vector} alt="seta" />
+            </div>
         </Container>
     );
 }

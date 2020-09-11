@@ -22,7 +22,7 @@ function Home() {
                 <input
                     type="text"
                     value={valorInput}
-                    placeholder="Digite aqui"
+                    placeholder="Digite seu repositorio aqui"
                     onChange={(digitando) =>
                         setValorInput(digitando.target.value)
                     }
